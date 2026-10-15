@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+       
+        h1{
+            color:white;
+        }
+        p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is first page</h1>
+    <p id="p1" class="odd">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, deserunt neque quibusdam perspiciatis exercitationem earum nostrum omnis quis impedit minima quia sapiente debitis voluptate inventore suscipit. Facere nobis repellat dolore?</p>
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore atque eligendi quos numquam laborum mollitia. Amet, accusantium, sed fugiat, perferendis labore veritatis animi consequuntur nulla dolorum dignissimos quod numquam!</p>
+    <p id="p3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quam reiciendis temporibus quas! Distinctio iure animi officia dignissimos deserunt ratione quasi debitis dolor dolorum eius vel blanditiis, perspiciatis expedita quaerat!</p>
+    <p id="p4"class="odd">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur dolore praesentium, vero sequi quam eius tenetur libero necessitatibus, delectus magni perspiciatis id in, omnis qui quis molestias? Quisquam, rem reiciendis!</p>
+    <p id="p5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur harum, eum eaque assumenda tenetur voluptas quisquam obcaecati, modi vitae, dolorem labore sit illo ratione unde distinctio voluptate omnis esse earum?</p>
+</body>
+</html>
+
+#another file
+body{
+    background-color: brown;
+}
+#p5{
+    color: blanchedalmond;
+}
+#p1{
+    color: blanchedalmond;
+}
+.odd{
+    background-color: aqua;
+}
+
