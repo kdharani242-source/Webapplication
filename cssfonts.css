@@ -1,0 +1,28 @@
+#cssfonts.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssfonts.css">
+</head>
+<body>
+    <h1>Dharani gayathri Bhargavi</h1>
+    <p>lorem
+        ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+</body>
+</html>
+
+#cssfonts.css
+h1{
+    font-family: verdana, arial;
+}
+p{
+    font-family: "Times New Roman", Times, serif;
+    color: blue;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
