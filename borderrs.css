@@ -1,0 +1,14 @@
+h1{
+    border-style: solid; /* dashed, dotted, double, groove, inset, outset, ridge */
+    border-width: 2px;
+    border-color: black;
+    border-radius: 50px;
+    /*border: 2px solid black;*/
+
+}
+p{
+    border-bottom: 3px dotted red;
+    border-top: 3px solid blue;
+    border-left: 3px dashed green;
+    border-right: 3px double yellow;
+}
