@@ -1,0 +1,26 @@
+
+/*shadow.html*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shadow.css">
+</head>
+<body>
+    <h1>Dharani gayathri Bhargavi</h1>
+    <div id="box1"></div>
+</body>
+</html>
+
+/*shadow.css*/
+h1{
+    text-shadow: 5px 2px 10px red,-5px -2px 10px #009dff; /* horizontal offset, vertical offset, blur radius, color */
+}
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(227, 100%, 50%);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); /* horizontal offset, vertical offset, blur radius, spread radius, color */
+}
