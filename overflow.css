@@ -1,0 +1,25 @@
+overflow.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="overflow.css">
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, blanditiis! Saepe, mollitia incidunt quaerat voluptatibus, culpa odio illum nam ducimus, laborum vero quam corrupti. Deleniti, harum repellendus. Aut, debitis at? </p>
+
+    </div>
+</body>
+</html>
+
+/*overflow.css*/
+div{
+    border: 2px solid red;
+    height: 60px;
+    overflow: clip;/*visible hidden scroll auto    scroll and auto do the same*/
+    overflow-clip-margin: 10px;/*content-box padding-box border-box*/
+}
