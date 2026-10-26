@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="float.css">
+</head>
+<body>
+    <img src="flower.png" height="150px" id="img1">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa quae, illum libero iure atque quisquam vero maxime ipsum, animi sapiente maiores pariatur, repudiandae ullam ut qui facere fugit. Assumenda, doloribus.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem repellendus eaque, doloremque error sunt debitis odit quas veritatis in alias, dignissimos omnis optio tempore dolorum? Ea in quibusdam harum reiciendis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, blanditiis! Saepe, mollitia incidunt quaerat voluptatibus, culpa odio illum nam ducimus, laborum vero quam corrupti. Deleniti, harum repellendus. Aut, debitis at?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat unde sapiente quis assumenda et cum, ipsum omnis accusantium minus nulla labore placeat beatae voluptatibus doloremque quisquam error? Sit, quaerat aliquam.</p>
+
+float.css
+</body>
+</html>
+
+body{
+    border: 3px solid rgb(203, 24, 24);
+    display: flow-root;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+    border-radius: 50px;
+}
