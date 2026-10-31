@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="display property.css">
+</head>
+<body>
+    <div>div</div>
+    <span>span</span>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius vel incidunt atque vero, corporis temporibus! Iure eveniet ea quia, animi at perspiciatis! Iste cum sunt quae? Illo accusamus ipsam dolore!
+</body>
+</html>
+
+/*display property.css*/
+
+div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: none;/*block inline-block none inline*/
+    visibility: hidden;
+}
+span{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
