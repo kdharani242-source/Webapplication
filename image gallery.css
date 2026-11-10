@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="image gallery.css">
+</head>
+<body>
+    <div class="gallery">
+        <a target="_blank" href="flower1.png">
+        <img src="flower1.png" alt="Flowers"  >
+        </a>
+        <div class="desc">flower1</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="flower2.png">
+        <img src="flower2.png" alt="Flowers">
+        </a>
+        <div class="desc">flower2</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="flower3.png">
+        <img src="flower3.png" alt="Flowers">
+        </a>
+        <div class="desc">flower3</div>
+    </div>
+</body>
+</html>
+
+/*css code*/
+.gallery{
+    display: inline-block;
+    border: 1px solid hsl(93, 77%, 46%);
+    margin: 5px;
+    width: 200px;
+}
+.gallery .desc{
+    padding: 15px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px solid hsl(93, 77%, 46%);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
