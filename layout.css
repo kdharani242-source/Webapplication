@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <header> <h2>header</h2></header>
+    <nav class="navbar"></nav>
+    <main>
+        <aside>
+            <h2>Aside</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam voluptate recusandae deleniti provident doloremque, assumenda aut facere quisquam, fugiat asperiores a, dolorum incidunt mollitia maxime aliquid repellendus natus repudiandae?maxime aliquid repellendus natus repudiandae</p>
+        </aside>
+        <section>
+            <h2>Section</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam voluptate recusandae deleniti provident doloremque, assumenda aut facere quisquam, fugiat asperiores a, dolorum incidunt mollitia maxime aliquid repellendus natus repudiandae?</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam voluptate recusandae deleniti provident doloremque, assumenda aut facere quisquam, fugiat asperiores a, dolorum incidunt mollitia maxime aliquid repellendus natus repudiandae?</p>
+        </section>
+        <article>
+            <h2>Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam voluptate recusandae deleniti provident doloremque, assumenda aut facere quisquam, fugiat asperiores a, dolorum incidunt mollitia maxime aliquid repellendus natus repudiandae?</p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur aperiam voluptate recusandae deleniti provident doloremque, assumenda aut facere quisquam, fugiat asperiores a, dolorum incidunt mollitia maxime aliquid repellendus natus repudiandae?</p>
+        </article>
+    </main>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+header{
+    background-color: #19b5e1;
+    text-align: center;
+    padding: 20px;
+
+}
+.navbar{
+    background-color: #1abc9c;
+    height: 50px;
+
+}
+aside{
+    width:20%;
+    background-color: hsl(118, 85%, 42%);
+    float: left;
+    padding: 10px;
+    
+}
+section{
+    width: 40%;
+    float: left;
+    background-color: hwb(286 20% 29%);
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float: left;
+    background-color: lab(44.86% 54.48 -65.89);
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: #19b5e1;
+    text-align: center;
+    padding: 20px;
+
+}
+@media screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%;
+        float: none;
+    }
+}
